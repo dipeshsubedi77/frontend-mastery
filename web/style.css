@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1513694203232-719a280e022f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D);
+}
+#nav{
+ padding: 0px 80px;
+ position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+height: 40px;
+width: 100%;
+
+}
+#nav  #navlinks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#nav i{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+#navlinks{
+    display: flex;
+    gap: 30px;
+    
+}
+h5{
+    font-size: 20px;
+    font-weight: 800;
+}
+#navlinks a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration:none;
+}
+#navlinks #active::before{
+    content: "";
+    width: 30%;
+    height: 1px;
+    background-color: rgb(255, 11, 11);
+    position: absolute;
+    top:0;
+    left: 20%;
+    transform: translate(-50%,0);
+
+
+}
+#body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding:40px;
+    margin-left: 40px;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+#body #proj{
+    position: absolute;
+    margin-bottom: 3px;
+}
+#content{
+    position: absolute;
+    padding: 5px;
+    margin-top: 70px;
+    width: 50%;
+}
+h1{
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-weight: 100;
+    padding: 4px;
+    opacity: 1;
+}
+#box{
+    display: flex;
+    position: absolute;
+    width: 70%;
+    height: 150px;
+    background-color: #ffffff;
+    top: 77%;
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#box #left{
+    padding: 40px;
+}
+
+ #box #left  p{
+    opacity: .6;
+    font-size: 12px;
+    padding: 20px;
+}
+#box #right  p{
+    opacity: .6;
+    font-size: 12px;
+    padding: 20px;
+}
+h4{
+    font-weight: 100;
+    font-size: 18px;
+}
+#box #right{
+    padding: 40px;
+}

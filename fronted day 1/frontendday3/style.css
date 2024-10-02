@@ -1,0 +1,96 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: serif;
+        box-sizing: border-box;
+    }
+
+    #main{
+        width: 100%;
+        height: 100vh;
+        background-color:#836469;
+        display: flex;
+        gap: 60px;
+    }
+
+    #left{
+        width: 45%;
+        background-color: #836469;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #left img{
+        position: absolute;
+        width:460px;
+        height: 70%;
+        margin-left:100px;
+        margin-top: 30px;
+      
+    }
+
+
+    #content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+       margin-left: 95px;
+       margin-bottom: 40px;
+       color: white;
+       display: flex;
+       justify-content: space-around;
+       gap: 50px;
+       padding: 5px;
+    }
+
+    #side{
+        font-size: 20px;
+        color: white;
+        letter-spacing: 2px;
+        margin-left: -4px;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+    }
+    #side2{
+        font-size: 20px;
+        color: white;
+        letter-spacing: 9px;
+        margin-left: -97px;
+        
+        transform: rotate(90deg);
+        position: absolute;
+        
+        top:40%;
+    }
+    #content p{
+        margin-top: 4px;
+    }
+       
+
+    #navlinks{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        
+    }
+    #right{
+        width:45%;
+        height:100%;
+        background-image: url(https://images.unsplash.com/photo-1575818184258-1ceb64f40ff8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdpcmwlMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #navlinks a{
+        list-style-type: none;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
